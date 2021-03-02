@@ -19,7 +19,7 @@ h1 {
     font-family: 'Roboto', sans-serif;
     font-size: 96px;
     font-weight: 900;
-    letter-spacing: 4px;
+    letter-spacing: 2px;
     margin-bottom: 64px;
 }
 
@@ -51,6 +51,22 @@ a {
     font-style: italic;
 }
 
+/* FONTS - MOBILE */
+
+@media only screen and (max-width: 600px) {
+
+    h1 {
+        font-size: 80px;
+        letter-spacing: normal;
+    }
+
+    h2 {
+        font-size: 32px;
+        margin-bottom: 32px;
+    }
+
+}
+
 /* HEADER SECTION */
 
 header {
@@ -80,11 +96,57 @@ nav li a {
     letter-spacing: 2px;
 }
 
+/* HEADER SECTION - MOBILE */
+
+@media only screen and (max-width: 600px) {
+
+    nav li {
+        margin: 0 12px;
+    }
+
+}
+
 /* MAIN SECTION */
 
 main {
     margin: 0 15%;
     padding-top: 70px;
+}
+
+/* MAIN SECTION - MOBILE */
+
+@media only screen and (max-width: 600px) {
+
+    main {
+        margin: 0 5%;
+    }
+    
+}
+
+/* BANNER SECTION */
+
+.banner {
+    max-width: 500px;
+    padding: 144px 0 112px 0;
+}
+
+.banner span {
+    color: #E63946;
+}
+
+.banner_text {
+    margin-bottom: 32px;
+}
+
+/* BANNER SECTION - MOBILE */
+
+@media only screen and (max-width: 600px) {
+
+    .banner {
+        max-width: 350px;
+        padding: 80px 0 48px 0;
+    }
+
 }
 
 /* BORDER TOP COLOR */
@@ -94,22 +156,16 @@ main {
     background-color: #E63946;
     height: 8px;
     width: 64px;
-
 }
 
-/* BANNER SECTION */
+/* BORDER TOP COLOR - MOBILE */
 
-.banner {
-    max-width: 500px;
-    padding: 144px 0 128px 0;
-}
+@media only screen and (max-width: 600px) {
 
-.banner span {
-    color: #E63946;
-}
+    .border_color_top {
+        width: 48px;
+    }
 
-main p {
-    margin-bottom: 32px;
 }
 
 /* COLOR SECTION */
@@ -150,6 +206,20 @@ main p {
     color: #ffffff;
 }
 
+/* COLOR SECTION - MOBILE */
+
+@media only screen and (max-width: 600px) {
+
+    #color {
+        padding-bottom: 32px;
+    }
+    
+    .color_block {
+        height: 80px;
+    }
+
+}
+
 /* FONT SECTION */
 
 #font {
@@ -166,17 +236,18 @@ main p {
 
 .font_block {
     display: inline-block;
-    overflow:auto;
+    overflow: auto;
     padding: 32px 64px;
 }
 
 .roboto a {
     font-family: 'Roboto', sans-serif;
-    font-size: 36px;
+    font-size: 32px;
     color: #000000;
 }
+
 .cabin a {
-    font-size: 36px;
+    font-size: 32px;
     color: #000000;
 }
 
@@ -192,6 +263,25 @@ main p {
 
 .cabin p {
     padding-top: 16px;
+}
+
+/* FONT SECTION - MOBILE */
+
+@media only screen and (max-width: 600px) {
+
+    #font {
+        padding-bottom: 0;
+    }
+
+    .font_block {
+        padding: 0 64px 32px 64px;
+    }
+
+    .roboto a,
+    .cabin a {
+        font-size: 24px;
+    }
+
 }
 
 /* TEXT STYLE SECTION */
@@ -223,6 +313,16 @@ main p {
 
 #text_style li {
     padding-top: 16px;
+}
+
+/* TEXT STYLE SECTION - MOBILE */
+
+@media only screen and (max-width: 600px) {
+
+    .text_style_breakdown {
+        padding-bottom: 32px;
+    }
+
 }
 
 /* BUTTON SECTION */
@@ -266,6 +366,16 @@ main p {
 
 .button4 {
     background-color: #A9A9A9;
+}
+
+/* BUTTON SECTION - MOBILE */
+
+@media only screen and (max-width: 600px) {
+
+    #button {
+        padding: 80px 0 16px 0;
+    }
+
 }
 
 /* FOOTER SECTION */
