@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="./style.css" rel="stylesheet" type="text/css">
+    <link href="./resources/css/style.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
     <title>Website Design System</title>
 </head>
 <body>
@@ -13,14 +14,21 @@
     <!-- HEADER SECTION -->
 
     <header>
-        <nav>
+        <nav class="navigation">
             <ul>
+                <li><a href="#banner">home</a></li>
                 <li><a href="#color">color</a></li>
+                <li><a href="#button">button</a></li>
                 <li><a href="#font">font</a></li>
                 <li><a href="#text_style">text style</a></li>
-                <li><a href="#button">button</a></li>
             </ul>
         </nav>
+        <div class="menu-button">
+            <i class="fas fa-bars fa-2x"></i>
+        </div>
+        <div class="close-button">
+            <i class="fas fa-times fa-2x"></i>
+        </div>
     </header>
         
     <!-- MAIN SECTION -->
@@ -29,10 +37,10 @@
 
         <!-- BANNER SECTION -->
 
-        <div class="banner">
+        <div id="banner">
             <h1>website design system<span>.</span></h1>
             <p class="banner_text">Welcome to the hub for a general website design system.</p>
-            <p class="banner_text">This guide is meant to document the visual vocabulary and reusable components for creating websites, blogs, landing pages, and web applications.</p>
+            <p>This guide is meant to document the visual vocabulary and reusable components for creating websites, blogs, landing pages, and web applications.</p>
         </div>
 
         <!-- COLOR SECTION -->
@@ -62,6 +70,19 @@
             </div>
         </div>
 
+        <!-- BUTTON SECTION -->
+
+        <div id="button">
+            <span class="border_color_top"></span>
+            <h2>button</h2>
+            <div class="button_container">
+                <button class="button button1">button</button>
+                <button class="button button2">hover</button>
+                <button class="button button3">active</button>
+                <button class="button button4">disabled</button>
+            </div>
+        </div>
+
         <!-- FONT SECTION -->
 
         <div id="font">
@@ -69,7 +90,7 @@
             <h2>font</h2>
             <div class="font_container">
                 <div class="font_block roboto">
-                    <a href="https://fonts.google.com/specimen/Roboto?preview.text_type=custom&query=rob" target="_blank">Roboto</a>
+                    <h3><a href="https://fonts.google.com/specimen/Roboto?preview.text_type=custom&query=rob" target="_blank">Roboto</a></h3>
                     <p class="regular">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
                     <p class="strong">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                     <p class="italic">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
@@ -108,6 +129,16 @@
                     </ul>
                 </div>
             </div>
+            <div class="subheading">
+                <h3 class="subheading_text">h3: subheading</h3>
+                <div class="text_style_breakdown">
+                    <ul>
+                        <li>font-weight: 400</li>
+                        <li>font-size: 32px / mobile: 24px</li>
+                        <li>font-family: Cabin</li>
+                    </ul>
+                </div>
+            </div>
             <div class="paragraph">
                 <p>p: paragraph</p>
                 <div class="text_style_breakdown">
@@ -120,24 +151,15 @@
             </div>
         </div>
 
-        <!-- BUTTON SECTION -->
-
-        <div id="button">
-            <span class="border_color_top"></span>
-            <h2>button</h2>
-            <div class="button_container">
-                <button class="button button1">button</button>
-                <button class="button button2">hover</button>
-                <button class="button button3">active</button>
-                <button class="button button4">disabled</button>
-            </div>
-        </div>
     </main>
 
     <!-- FOOTER SECTION -->
 
     <footer>
-        <p>&copy;2021 Jackie Yu. Project from Codecademy. All rights reserved.</p>
+        <p>&copy;2021 Jackie Yu. Project from Codecademy. Icons from Font Awesome. All rights reserved.</p>
     </footer>
+
+    <script src="./resources/js/script.js"></script>
+
 </body>
 </html>
