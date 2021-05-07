@@ -3,6 +3,8 @@ const closeBtn = document.querySelector(".close-button");
 const navigation = document.querySelector(".navigation");
 const navigationItems = document.querySelectorAll(".navigation ul li a");
 
+// BUTTON EVENTS
+
 menuBtn.addEventListener("click", () => {
     menuBtn.classList.toggle("active");
     closeBtn.classList.toggle("active");

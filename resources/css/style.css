@@ -187,7 +187,7 @@ main {
 
 /* BANNER SECTION */
 
-#banner {
+.banner {
     max-width: 500px;
     height: 100vh;
     display: flex;
@@ -195,11 +195,11 @@ main {
     justify-content: center;
 }
 
-#banner span {
+.banner span {
     color: #E63946;
 }
 
-.banner_text {
+.banner-text {
     margin: 32px 0;
 }
 
@@ -207,7 +207,7 @@ main {
 
 @media only screen and (max-width: 768px) {
 
-    #banner {
+    .banner {
         max-width: 350px;
     }
 
@@ -215,7 +215,7 @@ main {
 
 /* BORDER TOP COLOR */
 
-.border_color_top {
+.border-color-top {
     display: flex;
     background-color: #E63946;
     height: 8px;
@@ -226,7 +226,7 @@ main {
 
 @media only screen and (max-width: 768px) {
 
-    .border_color_top {
+    .border-color-top {
         width: 48px;
     }
 
@@ -234,11 +234,11 @@ main {
 
 /* COLOR SECTION */
 
-#color {
+.color {
     padding: 134px 0 64px 0;
 }
 
-.color_block {
+.color-block {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -247,7 +247,7 @@ main {
     border-radius: 24px;
 }
 
-.imperial_red {
+.imperial-red {
     background-color: #E63946;
 }
 
@@ -256,16 +256,16 @@ main {
     border: 1px solid #000000;
 }
 
-.powder_blue {
+.powder-blue {
     background-color: #A8DADC;
 }
 
-.celadon_blue {
+.celadon-blue {
     background-color: #457B9D;
     color: #ffffff;
 }
 
-.prussian_blue {
+.prussian-blue {
     background-color: #1D3557;
     color: #ffffff;
 }
@@ -274,12 +274,12 @@ main {
 
 @media only screen and (max-width: 768px) {
 
-    #color {
+    .color {
         padding-top: 102px;
         padding-bottom: 32px;
     }
     
-    .color_block {
+    .color-block {
         height: 80px;
     }
 
@@ -287,19 +287,19 @@ main {
 
 /* BUTTON SECTION */
 
-#button {
+.button {
     padding: 134px 0 48px 0;
 }
 
-#button h2 {
+.button h2 {
     margin-bottom: 48px;
 }
 
-.button_container {
+.button-container {
     text-align: center;
 }
 
-.button {
+.button-style {
     border: none;
     color: white;
     font-size: 16px;
@@ -334,15 +334,15 @@ main {
 
 @media only screen and (max-width: 768px) {
 
-    #button {
+    .button {
         padding: 102px 0 16px 0;
     }
 
-    #button h2 {
+    .button h2 {
         margin-bottom: 16px;
     }
 
-    .button {
+    .button-style {
         height: 64px;
         width: 192px;
     }
@@ -351,19 +351,19 @@ main {
 
 /* FONT SECTION */
 
-#font {
+.font {
     padding: 134px 0 32px 0;
 }
 
-#font h2 {
+.font h2 {
     margin-bottom: 32px;
 }
 
-.font_container {
+.font-container {
     text-align: center;
 }
 
-.font_block {
+.font-block {
     display: inline-block;
     overflow: auto;
     padding: 32px 64px;
@@ -398,12 +398,12 @@ main {
 
 @media only screen and (max-width: 768px) {
 
-    #font {
+    .font {
         padding-top: 102px;
         padding-bottom: 0;
     }
 
-    .font_block {
+    .font-block {
         padding: 0 64px 32px 64px;
     }
 
@@ -416,36 +416,36 @@ main {
 
 /* TEXT STYLE SECTION */
 
-#text_style {
+.text-style {
     padding-top: 134px;
 }
 
-#text_style h1 {
+.text-style h1 {
     letter-spacing: normal;
     margin-bottom: 16px;
 }
 
-#text_style h2.heading_text {
+.text-style h2.heading-text {
     margin-bottom: 16px;
 }
 
-#text_style h3.subheading_text {
+.text-style h3.subheading-text {
     margin-bottom: 16px;
 }
 
-#text_style p {
+.text-style p {
     margin-bottom: 16px;
 }
 
-.text_style_breakdown {
+.text-style-breakdown {
     padding-bottom: 64px;
 }
 
-#text_style ul {
+.text-style ul {
     list-style-type: none;
 }
 
-#text_style li {
+.text-style li {
     padding-top: 16px;
 }
 
@@ -453,10 +453,10 @@ main {
 
 @media only screen and (max-width: 768px) {
 
-    #text_style {
+    .text-style {
         padding-top: 102px;
     }
-    .text_style_breakdown {
+    .text-style-breakdown {
         padding-bottom: 32px;
     }
 
