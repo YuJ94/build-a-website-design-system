@@ -1,3 +1,5 @@
+// MENU BUTTON VARIABLES
+
 const menuBtn = document.querySelector(".menu-button");
 const closeBtn = document.querySelector(".close-button");
 const navigation = document.querySelector(".navigation");
