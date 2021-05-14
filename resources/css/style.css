@@ -75,7 +75,7 @@ a {
 
 }
 
-/* HEADER SECTION */
+/* HEADER */
 
 header {
     position: fixed;
@@ -110,7 +110,7 @@ header {
     display: none;
 }
 
-/* HEADER SECTION - MOBILE */
+/* HEADER - MOBILE */
 
 @media only screen and (max-width: 768px) {
 
@@ -166,13 +166,13 @@ header {
 
 }
 
-/* MAIN SECTION */
+/* MAIN */
 
 main {
     margin: 0 15%;
 }
 
-/* MAIN SECTION - MOBILE */
+/* MAIN - MOBILE */
 
 @media only screen and (max-width: 768px) {
 
@@ -182,7 +182,7 @@ main {
     
 }
 
-/* BANNER SECTION */
+/* BANNER */
 
 .banner {
     max-width: 500px;
@@ -200,7 +200,7 @@ main {
     margin: 32px 0;
 }
 
-/* BANNER SECTION - MOBILE */
+/* BANNER - MOBILE */
 
 @media only screen and (max-width: 768px) {
 
@@ -229,7 +229,7 @@ main {
 
 }
 
-/* COLOR SECTION */
+/* COLOR */
 
 .color {
     padding: 134px 0 64px 0;
@@ -267,7 +267,7 @@ main {
     color: #ffffff;
 }
 
-/* COLOR SECTION - MOBILE */
+/* COLOR - MOBILE */
 
 @media only screen and (max-width: 768px) {
 
@@ -282,7 +282,7 @@ main {
 
 }
 
-/* BUTTON SECTION */
+/* BUTTON */
 
 .button {
     padding: 134px 0 48px 0;
@@ -327,7 +327,7 @@ main {
     cursor: not-allowed;
 }
 
-/* BUTTON SECTION - MOBILE */
+/* BUTTON - MOBILE */
 
 @media only screen and (max-width: 768px) {
 
@@ -346,7 +346,7 @@ main {
 
 }
 
-/* FONT SECTION */
+/* FONT STYLE */
 
 .font {
     padding: 134px 0 32px 0;
@@ -391,7 +391,7 @@ main {
     padding-top: 16px;
 }
 
-/* FONT SECTION - MOBILE */
+/* FONT STYLE - MOBILE */
 
 @media only screen and (max-width: 768px) {
 
@@ -411,7 +411,7 @@ main {
 
 }
 
-/* TEXT STYLE SECTION */
+/* TEXT STYLE */
 
 .text-style {
     padding-top: 134px;
@@ -446,7 +446,7 @@ main {
     padding-top: 16px;
 }
 
-/* TEXT STYLE SECTION - MOBILE */
+/* TEXT STYLE - MOBILE */
 
 @media only screen and (max-width: 768px) {
 
@@ -459,7 +459,7 @@ main {
 
 }
 
-/* FOOTER SECTION */
+/* FOOTER */
 
 footer {
     color: #000000;
