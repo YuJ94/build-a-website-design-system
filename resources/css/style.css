@@ -1,4 +1,5 @@
 /* UNIVERSAL STYLES */
+
 * {
     padding: 0px;
     margin: 0px;
@@ -324,6 +325,7 @@ main {
 
 .button4 {
     background-color: #A9A9A9;
+    color: black;
     cursor: not-allowed;
 }
 
