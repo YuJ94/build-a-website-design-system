@@ -298,9 +298,9 @@ main {
 }
 
 .button-style {
-    font-family: 'Cabin', sans-serif;
     border: none;
     color: white;
+    font-family: inherit;
     font-size: 16px;
     height: 64px;
     width: 256px;
