@@ -1,13 +1,13 @@
 # Website Design System
-A basic style guide for developers and designers to organize their visual vocabulary and reusable components of a website or web application.
+A basic style guide for users to organize their visual vocabulary and reusable components.
 
 ## Screenshot
 ![preview of landing page](./resources/images/build-a-website-design-system.jpg)
 
 ## Visit
-Click [here](https://yuj94.github.io/build-a-website-design-system/) to visit the website.
+To view this website live, please visit [here](https://yuj94.github.io/build-a-website-design-system/).
 
-## Technologies
+## Technologies Used
 Project was built with:
 - HTML
 - CSS
